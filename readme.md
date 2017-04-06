@@ -1,5 +1,5 @@
 1. create Mysql DB: test
-2. run query: grant all privileges on test.* to 'root'@'localhost' identified by '12345678';
+2. run query: grant all privileges on test.* to 'hadoop'@'localhost' identified by 'hadoop';
 3. mvn clean package
 4. run com.test.login.LoginApplication
 5. run com.test.resource.ResourceApplication
